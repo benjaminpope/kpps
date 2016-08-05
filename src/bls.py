@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as pl
 from scipy.ndimage import median_filter as MF
 
-from k2ps.blsf import bls
+from kpps.blsf import bls
 
 def fold(time, period, origo=0.0, shift=0.0):
     return ((time - origo)/period + shift) % 1.

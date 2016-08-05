@@ -60,7 +60,7 @@ dt_poresult  = str_to_dt('po_lnlike_med f8, po_lnlike_std f8, po_lnlike_max f8, 
 dt_ecresult  = str_to_dt('ec_lnlratio f8, shift f8')
 
 class TransitSearch(object):
-    """K2 transit search and candidate vetting
+    """kepler transit search and candidate vetting
 
     Overview
     --------
